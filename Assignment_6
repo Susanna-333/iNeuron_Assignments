@@ -1,0 +1,103 @@
+ASSIGNMENT – 6
+
+
+Q.1.	What are keywords in python? Using the keyword library, print all the python keywords.
+
+	ANS : Keywords are reserved words that cannot be altered.
+
+			import keyword
+			print (keyword.kwlist)
+
+Q.2.	What are the rules to create variables in python?
+
+ANS : 1. Start with alphabet(a-z / A-Z) or underscore
+			2. Should not start with a number
+			3. Should not be a keyword
+
+Q.3.	What are the standards and conventions followed for the nomenclature of variables in python to improve code readability and maintainability?
+
+	ANS: 1. Start with alphabet(a-z / A-Z) or underscore
+			2. Should not start with a number
+			3. Should not be a keyword
+
+
+Q.4.	What will happen if a keyword is used as a variable name?
+
+ANS: If a keyword is used a variable the compiler throws an error and the statement doesn’t get executed.
+
+Q.5.	For what purpose def keyword is used?
+
+ANS: ‘ def ‘ keyword is used to define a function
+
+Q.6.	What is the operation of this special character ‘\’?
+
+ANS: ‘ \ ‘ indicates a multiline statement which means that the next line with a number of elements also belong to the same list or tuple or set.
+
+Q.7.	Give an example of the following conditions:
+(i)	Homogeneous list
+(ii)	Heterogeneous set
+(iii)	Homogeneous tuple
+
+ANS: Homo_list = [ 1,2,3,4,5……]
+	Hetero_set = { 1,’alice’,549,’pass’}
+	Homo_tuple = (1,2,3….)
+
+Q.8.	Explain the mutable and immutable data types with proper explanation & examples.
+
+ANS: Mutable means can be edited after creation whereas Immutable cannot be edited. 
+		Mutable data types – Lists, Dictionaries and Sets
+			Immutable data types – Tuples
+
+
+
+Q.9.	Write a code to create the given structure using only for loop.
+*
+***
+*****
+*******
+*********
+
+
+ANS: 
+
+def triangle (n):
+s = n – 1
+for i in range (0,n):
+for j in range (0,s):
+print (end = “ “)
+s = s – 1
+for j in range (o,i * 2 – 1):
+print (“*”,end=””)
+print (“\r”)
+
+
+n = 6
+triangle (n)
+
+
+Q.10.	Write a code to create the given structure using while loop.
+|||||||||
+|||||||
+|||||
+|||
+|
+
+ANS:
+
+n = 5
+i = n 
+while i >= 1:
+j = 1
+while j <= n – i:
+print (“ “,end=””)
+j = j + 1
+       k = 1 
+       while k <= 2*i-1 :
+	print (“*”,end=””)
+k = k + 1
+       print ()
+       i = i - 1
+
+
+
+
