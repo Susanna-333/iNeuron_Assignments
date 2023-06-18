@@ -1,0 +1,90 @@
+ASSIGNMENT - 7
+
+Q.1.	Create two int type variables, apply addition, subtraction, division and multiplications and store the results in variables. Then print the data in the following format by calling the variables:
+First variable is		& second variable is     .
+Addition: __ + __ = __  	
+Subtraction:	__	-	__ = __
+Multiplication:	__ *	__	=	__
+Division: __	/	__ = 	__
+
+A.1. Code:
+	a=20
+	b=3
+	add = a+b
+	sub = a-b
+	div = a/b
+	mul = a*b
+	print(”First variable is ",a," & second variable is ",b)
+	print("Addition:",a,"+",b,"=",add)
+	print("Subtraction:",a,"-",b,"=",sub)
+	print("Division:",a,"/",b,"=",div)
+	print("Multiplication:",a,"*",b,"=",mul)
+
+
+
+Q.2.	What is the difference between the following operators:
+(i)	‘/’ & ‘//’
+(ii)	‘**’ & ‘^’
+
+ANS:  (i) ‘/’ and ‘//’ both are Arithmetic Operators. 
+	‘/’ is Division Operator. It performs division operation between two operands.
+	For eg. 
+a=20
+	            b=3
+		print( a / b )
+
+	      o/p: 6.66666667
+
+	‘//’ is Floor Division Operator. It performs floor division operation between two operands (eliminates the fractional value).
+	For eg. 
+a=20
+	            b=3
+		print( a // b )
+
+	      o/p: 6
+
+		(ii) ‘**’  is an Arithmetic Operator whereas ‘^’ is an Bitwise Operator  
+	‘**’ performs exponential operation where frist number is base to power times of second number 
+For eg.
+	a = 2**5
+	o/p = 32 -----------> a= 2*2*2*2*2
+
+	‘^’ performs bitwise XOR operation where the output is 1 if either of the input is 1 else false
+X	Y	X^Y
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
+	 
+
+Q.3.	List the logical operators.
+
+  ANS:  i) and operator 
+	  ii) or operator
+	  iii) not operator
+
+Q.4.	Explain right shift operator and left shift operator with examples.
+
+ANS:  
+Right shift operator moves the bit values of a binary object to the right for given number of times.
+For eg, 
+a=9>>2  
+9=> 1001
+Moving bits to the right 2 times gives 0010
+So a= 9>>2 = 2
+Left shift operator moves the bit values of a binary object to the left for given number of times.
+For eg,
+ a=9<<2  
+ 9 => 1001
+ Moving bits to the left 2 times gives 100100
+ So a= 9<<2 = 36
+
+Q.5.	Create a list containing int type data of length 15. Then write a code to check if 10 is present in the list or not.
+
+ANS: Code:
+List1 = [ 1, 5, 12, 7 ,10, 9, 11, 12, 3, 2, 8, 9, 4, 0, 11 ]
+if 10 in List1:
+	print(“10 is present in list”)
+else:	
+	prsint(“10 is not present in list”)	
