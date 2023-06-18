@@ -1,0 +1,80 @@
+ASSIGNMENT - 1
+
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello'
+-87.8
+- 
+/ 
++	
+6
+
+ANS:    Values - ‘hello’, -87.8, 6
+                            Expressions - *, -, /, +  
+
+2. What is the difference between string and variable?
+
+ANS: String
+•	Contains a sequence of letters 
+•	Enclosed within ‘ ‘ or “ “
+•	Eg. ‘hello’ is a string.
+
+        Variable  
+•	Name given to a stored data of a program
+•	Can access the stored data 
+•	Eg. name = “Tim” & a = 10
+
+3. Describe three different data types.
+
+ANS: i) Integers  
+•	Represented by whole numbers.
+•	Includes positive or negative number. 
+•	In python, integers have no limit.
+        ii) Float 
+•	Represented by decimal values. 
+•	Number with a decimal value.
+•	Can be positive or negative.
+
+        iii)Complex Numbers –
+•	Represented by complex class. 
+•	Contains a real part and imaginary part.
+
+4. What is an expression made up of? What do all expressions do?
+
+ANS: An expression is a mixture of values, operators, variables and functions. Expression is evaluated to display a single value.
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+ANS: Expression can be assigned, used as operand and evaluated to a single value whereas Statements can only be declared in a program.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+ANS:  Bacon has value 22
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+ANS:  ‘spamspamspam’
+           ‘spamspamspam’
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+ANS: eggs – variable name starts with alphabet which is valid 
+          100 – variable name starts with number which is invalid
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+ANS: int() – get Integer
+          Float()- get Float value
+          Str() – get String
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+ANS: We cannot concatenate a string and an integer value.
+          Correct expression :
+'I have eaten ' + ‘99’ + ' burritos.'   OR
+'I have eaten ' + str(99) + ' burritos.'
