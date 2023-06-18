@@ -1,0 +1,62 @@
+ASSIGNMENT - 3
+
+1. Why are functions advantageous to have in your programs?
+
+ANS:  i) Reduce lines of code (no duplicate code)
+           ii) Short and easy to read
+           iii) Code Reusabllity
+
+2. When does the code in a function run: when it's specified or when it's called?
+
+ANS: Function runs when it is called.
+
+3. What statement creates a function?
+
+ANS: ‘def’ keyword is used to create a function.
+          def function_name (list of arguments):
+          #stmts
+
+4. What is the difference between a function and a function call?
+
+ANS:  Function - task to be performed in order to obtain an output 
+Function call - call a defined function whenever needed in a program.
+
+5. How many global scopes are there in a Python program? How many local scopes?
+
+ANS: There is one global scope and one local scope is created whenever a function is called.
+
+6. What happens to variables in a local scope when the function call returns?
+
+ANS: Local scope gets destroyed when the function call returns.
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+
+ANS:  Return value is the result given back to the function call.
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+
+ANS: If there is no return statement for a function, its return value is None.
+
+9. How do you make a function variable refer to the global variable?
+
+ANS:  A global statement will force a variable in a function to refer to the global variable. Global keyword is used to declare the global variables.
+
+10. What is the data type of None?
+
+ANS:  The data type of None is None Type.
+
+11. What does the sentence import are all your petsnamederic do?
+
+ANS:  That import statement imports a module named areallyourpetsnamederic.
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+
+ANS: spam.bacon()
+
+13. What can you do to save a programme from crashing if it encounters an error?
+
+ANS: Use try catch blocks
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+
+ANS: Code within try block is checked for errors and except block is executed if error is encountered.
