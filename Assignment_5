@@ -1,0 +1,48 @@
+ASSIGNMENT - 5
+
+1. What does an empty dictionary's code look like?
+
+ANS: Dictionary is an unordered collection of data values in key:value pair. 
+Empty dictionary code:
+empty_dict = {}
+
+2. What is the value of a dictionary value with the key 'foo' and the value 42?
+
+	ANS:  dict = {“foo”: 42}
+		print (dict)
+		o/p  {‘foo’:42}
+
+3. What is the most significant distinction between a dictionary and a list?
+
+ANS: Dictionary:
+•	Unordered List
+•	Contained within {}
+•	Key : Value pair
+          List :
+•	Ordered List 
+•	Contained within [ ]
+•	Single values 
+
+4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
+
+ANS : Error occurs as the dictionary spam does not contain the key ‘foo’.
+
+5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.keys()?
+
+ANS: Result will be the same as both statements check if ‘cat’ key is present in the spam dictionary.
+
+6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.values()?
+
+ANS: Result differs 
+	‘cat’ in spam checks for ‘cat’ in spam dictionary in key field of the key : value pair 
+	‘cat’ in spam.values() checks for ‘cat’ in spam dictionary in value field of the key : value pair
+
+7. What is a shortcut for the following code?
+if 'color' not in spam:
+spam['color'] = 'black'
+
+ANS: spam.setdefault('color', 'black')
+
+8. How do you "pretty print" dictionary values using which module and function?
+
+ANS: pprint.pprint()
