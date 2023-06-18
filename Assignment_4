@@ -1,0 +1,110 @@
+ASSIGNMENT - 4
+
+1. What exactly is []?
+	ANS: [] represents empty list
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+	ANS: Code:
+spam = [2,4,6,8,10]
+spam.insert(2,"hello")
+print (spam)
+		o/p  [2, 4, 'hello', 6, 8, 10]
+
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+	ANS: Code:
+spam = ['a', 'b', 'c', 'd']
+print (spam)
+r = spam[int(int('3' * 2) / 11)]
+print (r)
+		o/p  ['a', 'b', 'c', 'd']
+d
+
+4. What is the value of spam[-1]?
+ANS: Code:
+spam = ['a', 'b', 'c', 'd']
+print (spam)
+r = spam[-1]
+print (r)
+o/p  ['a', 'b', 'c', 'd']
+d
+5. What is the value of spam[:2]?
+ANS: Code:
+spam = ['a', 'b', 'c', 'd']
+print (spam)
+r = spam[:2]
+print (r)
+o/p  ['a', 'b', 'c', 'd']
+['a', 'b']
+
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+ANS: Code:
+bacon = [3.14, 'cat', 11, 'cat', True]
+print (bacon)
+r = bacon.index('cat')
+print (r)
+o/p  [3.14, 'cat', 11, 'cat', True]
+1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+ANS: Code:
+bacon = [3.14, 'cat', 11, 'cat', True]
+print (bacon)
+bacon.append(99)
+print (bacon)
+o/p  [3.14, 'cat', 11, 'cat', True]
+[3.14, 'cat', 11, 'cat', True, 99]
+
+
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+ANS: Code:
+bacon = [3.14, 'cat', 11, 'cat', True]
+print (bacon)
+bacon.remove('cat') 
+print (bacon)
+o/p  [3.14, 'cat', 11, 'cat', True]
+[3.14, 11, 'cat', True]
+9. What are the list concatenation and list replication operators?
+ANS: ‘ + ‘ for List Concatenation 
+	‘ * ‘ for List Replication
+
+10. What is difference between the list methods append() and insert()?
+ANS:
+	Append() adds element to the last position of the existing list.
+	Insert() adds element to the indexed position of the existing list.
+
+11. What are the two methods for removing items from a list?
+ANS: remove() and pop() 
+
+12. Describe how list values and string values are identical.
+ANS:
+•	Both are sequenced.
+•	Have lengths
+•	Have index value for each element.
+
+13. What's the difference between tuples and lists?
+ANS: Tuples are immutable
+Lists are mutable
+
+14. How do you type a tuple value that only contains the integer 42?
+ANS: Code:
+tuple = (42)
+print (tuple)
+o/p  42
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+ANS:  tuple() built in function is used to get a list value’s tuple form.
+	list () built in function is used to get a tuple value’s list form.
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+ANS: They contain references to the list values.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+ANS:  copy.copy() :
+•	Reference to original copy is created.
+•	Change to the copy object changes the original object.
+copy.deepcopy() :
+•	Creates new object and copy the original object.
+•	Change to the copy object does not change the original object.
+
